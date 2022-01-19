@@ -3,6 +3,12 @@
     border-radius: 10px;
 }
 
+.menu-section {
+    /* background-color: #7a66ea; */
+    background-image: linear-gradient( 27deg, #536ef4b5, transparent);
+    position: static;
+}
+
 .container {
     margin-bottom: 40px;
 }
@@ -30,4 +36,55 @@
 
 .cat3 {
     background-color: seagreen;
+}
+
+.about-title {
+    text-transform: uppercase;
+}
+
+#about {
+    height: 100vh;
+}
+
+.about-image img {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.servises {
+    background-color: rgb(240, 243, 242);
+    padding: 20px 0;
+}
+
+.services-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.item {
+    padding: 10px;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.item:hover {
+    transform: scale(105%);
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1 !important;
+    border-radius: 10px;
+}
+
+.item:hover::before {
+    content: "";
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    top: 85px;
+    left: 110px;
 }
