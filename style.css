@@ -9,6 +9,11 @@
     position: static;
 }
 
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
 .container {
     margin-bottom: 40px;
 }
@@ -42,19 +47,22 @@
     text-transform: uppercase;
 }
 
-#about {
+#about,
+.news {
     height: 100vh;
 }
 
-.about-image img {
+
+/* .about-image img {
     max-width: 100%;
     margin: 10px 0;
-}
+} */
 
-.item img {
+
+/* .item img {
     max-width: 100%;
     border-radius: 10px;
-}
+} */
 
 .servises {
     background-color: rgb(240, 243, 242);
@@ -87,4 +95,16 @@
     text-transform: uppercase;
     top: 85px;
     left: 110px;
+}
+
+.get-in {
+    max-width: 100%;
+    background-color: turquoise;
+    text-align: center;
+}
+
+.head-office,
+.phone-number {
+    border-left: 3px solid tomato;
+    padding: 4px 10px;
 }
