@@ -103,8 +103,27 @@ img {
     text-align: center;
 }
 
-.head-office,
-.phone-number {
+
+/* .head-office,
+.phone-number,
+.social-icon {
     border-left: 3px solid tomato;
-    padding: 4px 10px;
+} */
+
+.social-icon>i {
+    padding: 8px;
+    font-size: 28px;
+    background-color: #f0ede9;
+    border-radius: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.social-icon {
+    text-align: center;
+}
+
+.social-icon>i:hover {
+    background-color: #fff;
+    color: rgb(70, 130, 243);
 }
